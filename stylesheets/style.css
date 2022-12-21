@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Helvetica";
+    font-style: 'lightoblique';
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Halvetica");
+  }
+body {
+    background-color: black;
+}
+
+/* 1 блок */
+.section1
+{
+    /* width: 1440px; */
+    height: 558px;
+    clip-path: inset(0 0 0 0 round 6px);
+    overflow: hidden;
+    display: block;
+}
+.img1-1
+{
+    width: 2860px;
+    height: 528px;
+    background-image: url('../images/img1-1.svg');
+    animation: img1-1-move 6s linear infinite;
+}
+@keyframes img1-1-move {
+    0% {margin-left: 0px;}
+    100% {margin-left: -1393px;}
+}
+.logo
+{
+    width: 1390px;
+    height: 145px;
+    background-image: url('../images/logoblack.svg');
+    margin-top: -200px;
+    margin-left: 15px;
+    margin-bottom: 56px;
+    align-items: center;
+}
+.logo:hover
+{
+    background-image: url('../images/logowhite.svg');
+    width: 1390px;
+    height: 145px;
+    margin-top: -349px;
+    margin-left: 15px;
+    margin-bottom: 56px;
+    transition: 0.5s;
+}
+/* 2 блок */
+.block
+{
+    clip-path: inset(0 0 0 round 4px);
+    height: 43px;
+    background-color: #d4f570;
+    clip-path: inset(0 0 0 round 4px);
+    overflow: hidden;
+}
+
+.text{
+    font-family: 'Helvetica';
+    font-style: oblique;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 500;
+    width: 1000px;
+    animation: text-moving 6s linear infinite;
+}
+@keyframes text-moving {
+    0% {margin-left: -700px}
+    100% {margin-left: 3px}
+    
+}
+.section3 
+{
+    /* width: 1546px; */
+    position: relative;
+    height: 1115px;
+    clip-path: inset(0 0 0 round 4px);
+    overflow: hidden;
+    background-color: black;
+}
+.cup1
+{
+    background-image: url('../images/cup1.svg');
+    width: 178px;
+    height: 222px;
+    position: absolute;
+    top: 20px;
+    left: -80px;
+    animation: cup1-moving 2s linear infinite;
+}
+@keyframes cup1-moving {
+    0% {transform: translate(-50px, 20px)}
+    100% {transform: translate(950px, 750px);}
+}
+.cup2
+{ /*40px -235px*/
+    background-image: url('../images/cup2.svg');
+    width: 232px;
+    height: 227px;
+    position: absolute;
+    top: 40px;
+    right: -230px;
+    animation: cup2-moving 3s linear infinite;
+}
+@keyframes cup2-moving {
+    0% {transform: translate(40px, -50px)}
+    100% {transform: translate(-800px, 790px)}
+}
+.cup3
+{
+    background-image: url('../images/cup3.svg');
+    width: 213px;
+    height: 207px;
+    position: absolute;
+    top: 400px;
+    right: -400px;
+    overflow: hidden;
+    animation: cup3-moving 4s linear infinite;
+}
+@keyframes cup3-moving {
+    0% {transform: translate(100px, -300px)}
+    100% {transform: translate(-950px, 380px)}
+}
+.box
+{
+    background-image: url('../images/frame.svg');
+    width: 675px;
+    height: 430px;
+    position: absolute;
+    top: 680px;
+    right: 250px;
+}
+
+/* 4 блок*/
+.section4{
+    height: 600px;
+    margin-top: 100px;
+    border-radius: 4px;
+    clip-path: inset(0 0 0 round 4px);
+    overflow: hidden;
+}
+.rect__sect4{
+    width: 4960px;
+}
+.corobki{
+    background-image: url('../images/chainiki.svg'); 
+    width: 3972px;
+    height: 480px;
+    animation: chainiki-move 8s linear infinite;
+    animation-play-state: running;
+}
+@keyframes chainiki-move {
+    0% {margin-left: -1986px;}
+    100% {margin-left: 0px;}
+}
+
+/* блок 5*/
+.section5{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.end{
+    background-image: url('../images/end.svg');
+    width: 162px;
+    height: 89px;
+    margin-left: 20px;
+}
+.end__logo{
+    background-image: url('../images/endlogo.svg');
+    width: 200px;
+    height: 74px;
+    margin-top: 10px;
+    margin-right: -10px;
+}

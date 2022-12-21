@@ -1,0 +1,160 @@
+@media (min-width: 1024px) and (max-width:1430px) {
+.img1-1{
+    width: 2500px;
+    height: 396px;
+    background-image: url('../images/img1-2.svg');
+    animation: img1-1-move 6s linear infinite;
+}   
+@keyframes img1-1-move {
+    0% {margin-left: 0px;}
+    100% {margin-left: -1024px;}
+}
+.logo
+{
+    width: 994px;
+    height: 109px;
+    background-image: url('../images/logo2.svg');
+    margin-left: 0.5%;
+    margin-top: -13%;
+}
+.logo:hover
+{
+    background-image: url('../images/logo2white.svg');
+    width: 994px;
+    height: 109px;
+    margin-top: -255px;
+    margin-left: 8px;
+    margin-bottom: 32px;
+    transition: 0.5s;
+}
+/* 2 блок */
+.block
+{
+    clip-path: inset(0 0 0 round 4px);
+    height: 32px;
+    background-color: #d4f570;
+    clip-path: inset(0 0 0 round 4px);
+    overflow: hidden;
+    margin-top: -150px;
+}
+
+.text{
+    font-family: 'Helvetica';
+    font-style: oblique;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 500px;
+    width: 400px;
+    animation: text-moving 5s linear infinite;
+}
+@keyframes text-moving {
+    0% {margin-left: -550px}
+    100% {margin-left: -28px}
+    
+}
+.section3 
+{
+    /* width: 1546px; */
+    position: relative;
+    height: 880px;
+    clip-path: inset(0 0 0 round 4px);
+    overflow: hidden;
+    background-color: black;
+}
+.cup1
+{
+    background-image: url('../images/cup1-1.svg');
+    width: 149px;
+    height: 183.08px;
+    position: absolute;
+    top: 20px;
+    left: -100px;
+    animation: cup1-moving 2s linear infinite;
+}
+@keyframes cup1-moving {
+    0% {transform: translate(-50px, 20px)}
+    100% {transform: translate(680px, 490px);}
+}
+.cup2
+{ /*40px -235px*/
+    background-image: url('../images/cup2-1.svg');
+    width: 170px;
+    height: 166px;
+    position: absolute;
+    top: 0px;
+    right: -230px;
+    animation: cup2-moving 3s linear infinite;
+}
+@keyframes cup2-moving {
+    0% {transform: translate(-50px, -40px)}
+    100% {transform: translate(-550px, 540px)}
+}
+.cup3
+{
+    background-image: url('../images/cup3-1.svg');
+    width: 191px;
+    height: 185.6px;
+    position: absolute;
+    top: 0px;
+    right: -150px;
+    overflow: hidden;
+    animation: cup3-moving 4s linear infinite;
+}
+@keyframes cup3-moving {
+    0% {transform: translate(50px, -10px)}
+    100% {transform: translate(-490px, 540px)}
+}
+.box
+{
+    background-image: url('../images/box-1.svg');
+    width: 479px;
+    height: 305px;
+    position: absolute;
+    top: 470px;
+    right: 190px;
+}
+/* 4 блок*/
+.section4{
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 4px;
+    clip-path: inset(0 0 0 round 4px);
+    overflow: hidden;
+}
+.rect__sect4{
+    width: 4000px;
+     /* ??? */
+}
+.corobki{
+    /* background-image: url('../images/chainiki-1.svg');  */
+    width: 3716px;
+    height: 448px;
+    animation: chainiki-move 5s linear infinite;
+    animation-play-state: running;
+}
+@keyframes chainiki-move {
+    0% {margin-left: -1860px;}
+    100% {margin-left: 0px;}
+}
+/* блок 5*/
+.section5{
+    height: 0px;
+    display: flex;
+    justify-content: space-between; 
+    /* ??? */
+}
+.end{
+    background-image: url('../images/end-1.svg');
+    width: 162px;
+    height: 89px;
+    margin-left: 10px;
+    margin-top: -110px;
+}
+.end__logo{
+    background-image: url('../images/endlogo-1.svg');
+    width: 200px;
+    height: 74px;
+    margin-top: -95px;
+    margin-right: -10px;
+}
+}
