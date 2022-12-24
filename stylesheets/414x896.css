@@ -2,7 +2,7 @@
 .img1-1{
     width: 790px;
     height: 145px;
-    background-image: url('../images/img1-3.svg');
+    background-image: url('../images/img1-7.svg');
     animation: img1-1-move 6s linear infinite;
 }   
 @keyframes img1-1-move {
